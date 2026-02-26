@@ -1,0 +1,7 @@
+#Hubert Radzik
+#input phase
+total_amount = float(input("Enter total amount received: "))
+#process phase
+share_per_person = total_amount / 3
+#output phase
+print("Each person will receive: ", share_per_person)
