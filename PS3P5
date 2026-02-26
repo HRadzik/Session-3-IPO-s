@@ -1,0 +1,10 @@
+#Hubert Radzik
+#input phase
+radius = float(input("Enter radius of the circle: "))
+pi = 3.174
+#prcess phase
+area = pi * radius * radius
+perimeter = 2 * pi * radius
+#output phase
+print("Circle Area:", area)
+print("Circle Perimeter:", perimeter)
