@@ -1,0 +1,16 @@
+#Hubert Radzik
+#input process
+make = input("Enter auto make: ")
+model = input("Enter auto model: ")
+msrp = float(input("Enter MSRP: "))
+discount_percent = float(input("Enter discount percent (decimal): "))
+#process phase
+amount_off = msrp * discount_percent
+discounted_price = msrp - amount_off
+#output phase
+print("Make: ", make)
+print("Model: ", model)
+print("MSRP: ", msrp)
+print("Discount percent: ", discount_percent)
+print("Amount off: ", amount_off)
+print("Discounted price: ", discounted_price)
